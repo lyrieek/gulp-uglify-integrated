@@ -1,0 +1,35 @@
+{
+	"name": "gulp-uglify-integrated",
+	"description": "Integrated UglifyJS into the gulp",
+	"version": "0.0.2",
+	"author": "Lyrieek <lyrieek@qq.com>",
+	"publisher": "lyrieek",
+	"dependencies": {
+		"event-stream": "^4.0.1",
+		"log4js": "^6.3.0",
+		"vinyl-sourcemaps-apply": "^0.2.0"
+	},
+	"devDependencies": {
+		"gulp": "^3.9.1"
+	},
+	"resolutions": {
+		"graceful-fs": "^4.2.4"
+	},
+	"keywords": [
+		"gulp plugin"
+	],
+	"license": "AGPL-3.0",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"uglify-src/"
+	],
+	"scripts": {
+		"test": "tape test/*.js"
+	},
+	"greenkeeper": {
+		"ignore": [
+			"gulp-sourcemaps"
+		]
+	}
+}
